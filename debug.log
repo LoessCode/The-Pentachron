@@ -1,3 +1,10 @@
 [0207/102318.007:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
 [0207/102318.161:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
 [0207/102318.297:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is disabled
+[0207/131459.055:INFO:CONSOLE(14)] "Uncaught ReferenceError: aqua is not defined", source: file:///C:/Users/sidbo/Desktop/Data/Other/Programming/Projects/The%20Pentachron/Website/The-Pentachron/index.html (14)
+[0207/131459.292:INFO:CONSOLE(14)] "Uncaught ReferenceError: aqua is not defined", source: file:///C:/Users/sidbo/Desktop/Data/Other/Programming/Projects/The%20Pentachron/Website/The-Pentachron/index.html (14)
+[0207/131500.684:INFO:CONSOLE(14)] "Uncaught ReferenceError: aqua is not defined", source: file:///C:/Users/sidbo/Desktop/Data/Other/Programming/Projects/The%20Pentachron/Website/The-Pentachron/index.html (14)
+[0207/131502.252:INFO:CONSOLE(14)] "Uncaught ReferenceError: aqua is not defined", source: file:///C:/Users/sidbo/Desktop/Data/Other/Programming/Projects/The%20Pentachron/Website/The-Pentachron/index.html (14)
+[0207/131503.197:INFO:CONSOLE(14)] "Uncaught ReferenceError: aqua is not defined", source: file:///C:/Users/sidbo/Desktop/Data/Other/Programming/Projects/The%20Pentachron/Website/The-Pentachron/index.html (14)
+[0207/131503.460:INFO:CONSOLE(14)] "Uncaught ReferenceError: aqua is not defined", source: file:///C:/Users/sidbo/Desktop/Data/Other/Programming/Projects/The%20Pentachron/Website/The-Pentachron/index.html (14)
+[0207/131511.384:INFO:CONSOLE(14)] "Uncaught ReferenceError: white is not defined", source: file:///C:/Users/sidbo/Desktop/Data/Other/Programming/Projects/The%20Pentachron/Website/The-Pentachron/index.html (14)
