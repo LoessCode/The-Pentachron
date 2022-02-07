@@ -1,0 +1,39 @@
+﻿#NavBarTopId {
+    background-color: black;
+    margin-top: 0px;
+    padding: 0px;
+    height: 75px;
+}
+#IconImg {
+    width: 75px;
+    float: left;
+    display: inline;
+}
+body {
+    background-color: #060513;
+    margin: 0px;
+}
+header {
+    border: 0px;
+    margin: 0px;
+}
+#MainLogoWebName {
+    padding-top: 20px;
+    margin-top: 0px;
+    color: white;
+    font-family: cascadia code;
+    font-size: 30px;
+    display: inline-block;
+}
+.VerticalLineDiv {
+    border-left: 2px solid aqua;
+    border-top: 1px solid aqua;
+    height: 20px;
+    display: inline-block;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    color: white;
+    font-family: cascadia code;
+}
