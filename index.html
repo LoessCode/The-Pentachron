@@ -12,7 +12,21 @@
     <nav id="NavBarTopId">
         <image id="IconImg" src="images/penta.gif" />
         <p id="MainLogoWebName">The Pentachron</p>
-        <div class="VerticalLineDiv" id="underdev" onmouseover=""> Work in progress! (This bar will contain the different nav buttons)</div>
+        <div class="VerticalLineDiv">
+            <div class="Login">
+                <div style="display: inline-block" onmouseover="document.getElementById('LoginButtonImg').src = 'images/PentaHovered.png'" onmouseout="document.getElementById('LoginButtonImg').src = 'images/PentaGray.png'" onclick="location.replace('Login/index.html');">
+
+                    <img class="hoverimg" id="LoginButtonImg" src="images/PentaGray.png"/>
+                    <input type="button" class="LoginRegButton" value="Login"/>
+                </div>
+                <div style="display: inline-block" onmouseover="document.getElementById('RegisterButtonImg').src = 'images/PentaHovered.png'" onmouseout="document.getElementById('RegisterButtonImg').src = 'images/PentaGray.png'"onclick="location.replace('Register/index.html');">
+
+                    <img class="hoverimg" id="RegisterButtonImg" src="images/PentaGray.png"/>
+                    <input type="button" class="LoginRegButton" value="Register"/>
+                </div>
+            </div>
+        </div>
+
     </nav>
 </header>
 
