@@ -8,7 +8,6 @@
     width: 75px;
     float: left;
     display: inline;
-    position: fixed;
     padding-right: 10px;
 }
 body {
@@ -19,32 +18,34 @@ header {
     border: 0px;
     margin: 0px;
 }
+#NavBarTopId {
+    border-top: 3px solid aqua;
+}
 #MainLogoWebName {
-    padding-top: 20px;
+    padding-top: 15px;
     margin-top: 0px;
     color: white;
     font-family: cascadia code;
     font-size: 30px;
     display: inline-block;
-    border-bottom: 2px solid aqua;
+    border-bottom: 5px solid aqua;
+    border-radius: 2px;
+    margin-right: 15px;
     width: 250px;
-    margin-left:80px;
 }
 .VerticalLineDiv {
-    border-left: 8px solid aqua;
-    border-top: 2px solid aqua;
     height: 25px;
-    width: 10000px;
-    display: inline-block;
+    display: inline;
     padding-left: 10px;
     margin-left: 0px;
     margin-right: 10px;
     margin-bottom: 0px;
     padding-top: 15px;
     margin-top: 15px;
+    padding: 10px;
     color: white;
     font-family: cascadia code;
-    position: fixed;
+
 }
 #underdev{
     color: gray;
@@ -53,10 +54,13 @@ header {
     
 }
 .Login {
-    display: inline-block;
     margin-top: 0px;
-    height: 50px;
-    padding-left: 1250px;
+    display: inline-block;
+    height: 35px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-right: 1px solid aqua;
 }
 .LoginRegButton {
     height: 40px;
@@ -70,4 +74,50 @@ header {
 .hoverimg {
     float: left;
     width: 40px;
+}
+.UserPassPar {
+    color: white;
+    font-family: cascadia code;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.LoginInput {
+    margin-left: 30px;
+    background-color: #0D0B29;
+    display: inline-block;
+    width: 350px;
+    margin-top: 15px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.UserPassTex {
+    margin-left: 15px;
+    background-color: #272451;
+    border-color: #0d0b29;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    color: white;
+    font-family: cascadia code;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#InputPfp {
+    opacity: 0;
+}
+#InputImageLabel {
+    color: white;
+    display: block;
+    background: #272451;
+    width: 200px;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: cascadia code;
+    height: 17px;
 }
