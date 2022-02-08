@@ -71,3 +71,33 @@ header {
     float: left;
     width: 40px;
 }
+.UserPassPar {
+    color: white;
+    font-family: cascadia code;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.LoginInput {
+    margin-left: 30px;
+    background-color: #0D0B29;
+    display: inline-block;
+    width: 350px;
+    margin-top: 15px;
+    height: 270px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.UserPassTex {
+    margin-left: 15px;
+    background-color: #272451;
+    border-color: #0d0b29;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    color: white;
+    font-family: cascadia code;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 1px solid aqua;
+}
