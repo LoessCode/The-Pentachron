@@ -121,3 +121,60 @@ header {
     font-family: cascadia code;
     height: 17px;
 }
+#InputImageLabelH {
+    color: white;
+    display: block;
+    background: #272451;
+    width: 200px;
+    padding: 7px 15px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: cascadia code;
+    height: 17px;
+    border: 2px solid aqua;
+}
+#RegisterSubmitButton {
+    background-color: #272451;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: #272451;
+    color: white;
+    font-family: cascadia code;
+    font-size: 15px;
+    margin-left: 275px;
+    margin-top: 10px;
+}
+#RegisterSubmitButtonH {
+    background-color: #272451;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid aqua;
+    color: white;
+    font-family: cascadia code;
+    font-size: 15px;
+    margin-left: 275px;
+    margin-top: 10px;
+}
+.UserCheckTextE {
+    color: gray;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: cascadia code;
+    display: inline;
+}
+.UserCheckTextI {
+    color: #b22222;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: cascadia code;
+    display: inline;
+}
+.UserCheckTextV {
+    color: #00fa9a;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: cascadia code;
+    display: inline;
+}
