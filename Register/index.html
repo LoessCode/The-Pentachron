@@ -6,6 +6,7 @@
     <title>The Pentachron</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="../style.css">
+    <script src="../jquery-3.6.0.min.js"></script>
 </head>
 <body align="center">
 <header>
@@ -32,9 +33,9 @@
                     <p class="UserPassPar">
                         Username:
                     </p>
-                    <input type="text" name="username" class="UserPassTex" id="InputTextBox"oninput="UserCheck(document.getElementById('InputTextBox'))" />
-                    <div id="ChangeHTMLUsernameCheck">
-                        <p class="UserCheckTextE">Please enter a username!</p>
+                    <input type="text" name="username" class="UserPassTex" id="InputTextBox"oninput="UserCheck()" />
+                    <div class="UserCheckTextE" id="ChangeHTMLUsernameCheck">
+                        Please enter a username!
                     </div>
 
                     <p class="UserPassPar">
@@ -51,9 +52,9 @@
                         Select File
                         <input id="InputPfp" name="pfpinput" type="file" />
                     </label>
-
+                     
                 </div>
-                <button align="center" onmouseout="document.getElementById('RegisterSubmitButtonH').id = 'RegisterSubmitButton'" onmouseover="document.getElementById('RegisterSubmitButton').id = 'RegisterSubmitButtonH'" id="RegisterSubmitButton" type="submit">Submit</button>
+                <button align="center" disabled onmouseout="document.getElementById('RegisterSubmitButtonH').id = 'RegisterSubmitButton'" onmouseover="document.getElementById('RegisterSubmitButton').id = 'RegisterSubmitButtonH'" id="RegisterSubmitButton" type="submit">Submit</button>
             </form>
         </div>  
     </div>

@@ -1,24 +1,29 @@
-function httpGet(theUrl) {
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open("GET", theUrl, false); // false for synchronous request
-    return xmlHttp.responseText;
+function httpGet(theurl) {
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', theurl, false);
+    xhr.send();
+    return xhr.responseText;
 }
 
+UsernameList = JSON.parse(httpGet("https://thepentachronbackend-production.up.railway.app/UserNameGet"))["Usernames"];
+console.log(UsernameList);
 
-function UserCheck(Element) {
-    UsernameList = httpGet("https://thepentachronbackend-production.up.railway.app/UserNameGet");
-    console.log(UsernameList);
-    console.log(".");
+function UserCheck() {
+    ElementVar = document.getElementById("InputTextBox");
     BottomTextE = document.getElementById("ChangeHTMLUsernameCheck");
-    if (Element.value == "") {
+    SubButton = document.getElementById("RegisterSubmitButton");
+    if (ElementVar.value == "") {
         BottomTextE.innerHTML = 'Please enter a username!';
         BottomTextE.setAttribute("class", "UserCheckTextE");
+        SubButton.setAttribute("disabled", "true");
     }
-    else if (Element.value in UsernameList) {
+    else if (UsernameList.indexOf(ElementVar.value) > -1) {
         BottomTextE.innerHTML = 'Username is already taken!';
         BottomTextE.setAttribute("class", "UserCheckTextI");
+        SubButton.setAttribute("disabled", "true");
     } else {
         BottomTextE.innerHTML = 'Username is valid!';
         BottomTextE.setAttribute("class", "UserCheckTextV");
+        SubButton.removeAttribute("disabled");
     }
 }
